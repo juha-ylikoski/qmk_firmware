@@ -4,7 +4,7 @@
 #pragma once
 
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
-#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U // Timeout window in ms in which the double tap can occur.
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U // Timeout window in ms in which the double tap can occur.
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP17 // Specify a optional status led by GPIO number which blinks when entering the bootloader
 
 #define MASTER_RIGHT
@@ -22,7 +22,7 @@
 #define D6 6U
 #define D7 7U
 #define D8 8U
-#define D9 8U
+#define D9 9U
 #define D10 10U
 #define D11 11U
 #define D12 12U
