@@ -5,8 +5,8 @@
     "maintainer": "Juha Ylikoski",
     "tags": ["split"],
     "usb": {
-        "vid": "0x444D",
-        "pid": "0x3435",
+        "vid": "0xFEED",
+        "pid": "0x3BDF",
         "device_version": "0.0.1"
     },
     "features": {

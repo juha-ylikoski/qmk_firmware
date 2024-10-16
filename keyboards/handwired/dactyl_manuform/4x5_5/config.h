@@ -11,6 +11,7 @@
 // #define USE_I2C
 
 #define PMW33XX_CS_PIN D13
+#define POINTING_DEVICE_INVERT_X
 
 
 #define D0 0U
